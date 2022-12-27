@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Github\\Help_Desk\\React_Redux_.NET_Shopping_Mall\\Server\\React_Redux_.NET_Shopping_Mall\\React_Redux_.NET_Shopping_Mall\\React_Redux_.NET_Shopping_Mall.csproj": {}
+    "D:\\Coding\\VisualStudio\\Help_Desk\\React_Redux_.NET_Shopping_Mall\\Server\\React_Redux_.NET_Shopping_Mall\\React_Redux_.NET_Shopping_Mall\\React_Redux_.NET_Shopping_Mall.csproj": {}
   },
   "projects": {
-    "F:\\Github\\Help_Desk\\React_Redux_.NET_Shopping_Mall\\Server\\React_Redux_.NET_Shopping_Mall\\React_Redux_.NET_Shopping_Mall\\React_Redux_.NET_Shopping_Mall.csproj": {
+    "D:\\Coding\\VisualStudio\\Help_Desk\\React_Redux_.NET_Shopping_Mall\\Server\\React_Redux_.NET_Shopping_Mall\\React_Redux_.NET_Shopping_Mall\\React_Redux_.NET_Shopping_Mall.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Github\\Help_Desk\\React_Redux_.NET_Shopping_Mall\\Server\\React_Redux_.NET_Shopping_Mall\\React_Redux_.NET_Shopping_Mall\\React_Redux_.NET_Shopping_Mall.csproj",
+        "projectUniqueName": "D:\\Coding\\VisualStudio\\Help_Desk\\React_Redux_.NET_Shopping_Mall\\Server\\React_Redux_.NET_Shopping_Mall\\React_Redux_.NET_Shopping_Mall\\React_Redux_.NET_Shopping_Mall.csproj",
         "projectName": "React_Redux_.NET_Shopping_Mall",
-        "projectPath": "F:\\Github\\Help_Desk\\React_Redux_.NET_Shopping_Mall\\Server\\React_Redux_.NET_Shopping_Mall\\React_Redux_.NET_Shopping_Mall\\React_Redux_.NET_Shopping_Mall.csproj",
-        "packagesPath": "C:\\Users\\tharindu\\.nuget\\packages\\",
-        "outputPath": "F:\\Github\\Help_Desk\\React_Redux_.NET_Shopping_Mall\\Server\\React_Redux_.NET_Shopping_Mall\\React_Redux_.NET_Shopping_Mall\\obj\\",
+        "projectPath": "D:\\Coding\\VisualStudio\\Help_Desk\\React_Redux_.NET_Shopping_Mall\\Server\\React_Redux_.NET_Shopping_Mall\\React_Redux_.NET_Shopping_Mall\\React_Redux_.NET_Shopping_Mall.csproj",
+        "packagesPath": "C:\\Users\\thari\\.nuget\\packages\\",
+        "outputPath": "D:\\Coding\\VisualStudio\\Help_Desk\\React_Redux_.NET_Shopping_Mall\\Server\\React_Redux_.NET_Shopping_Mall\\React_Redux_.NET_Shopping_Mall\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tharindu\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\thari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

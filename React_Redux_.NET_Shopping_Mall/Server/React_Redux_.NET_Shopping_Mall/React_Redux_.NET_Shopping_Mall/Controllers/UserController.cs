@@ -1,6 +1,7 @@
-using React_Redux_.NET_Shopping_Mall.Repository.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using React_Redux_.NET_Shopping_Mall.Data;
+using React_Redux_.NET_Shopping_Mall.Repository;
 
 namespace React_Redux_.NET_Shopping_Mall{
     [Route("api/[controller]")]

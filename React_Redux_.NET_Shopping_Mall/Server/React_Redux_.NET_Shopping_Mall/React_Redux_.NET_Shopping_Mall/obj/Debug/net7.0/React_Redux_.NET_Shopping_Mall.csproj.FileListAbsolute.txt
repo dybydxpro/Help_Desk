@@ -1,0 +1,7 @@
+D:\Coding\VisualStudio\Help_Desk\React_Redux_.NET_Shopping_Mall\Server\React_Redux_.NET_Shopping_Mall\React_Redux_.NET_Shopping_Mall\obj\Debug\net7.0\React_Redux_.NET_Shopping_Mall.csproj.AssemblyReference.cache
+D:\Coding\VisualStudio\Help_Desk\React_Redux_.NET_Shopping_Mall\Server\React_Redux_.NET_Shopping_Mall\React_Redux_.NET_Shopping_Mall\obj\Debug\net7.0\React_Redux_.NET_Shopping_Mall.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\VisualStudio\Help_Desk\React_Redux_.NET_Shopping_Mall\Server\React_Redux_.NET_Shopping_Mall\React_Redux_.NET_Shopping_Mall\obj\Debug\net7.0\React_Redux_.NET_Shopping_Mall.AssemblyInfoInputs.cache
+D:\Coding\VisualStudio\Help_Desk\React_Redux_.NET_Shopping_Mall\Server\React_Redux_.NET_Shopping_Mall\React_Redux_.NET_Shopping_Mall\obj\Debug\net7.0\React_Redux_.NET_Shopping_Mall.AssemblyInfo.cs
+D:\Coding\VisualStudio\Help_Desk\React_Redux_.NET_Shopping_Mall\Server\React_Redux_.NET_Shopping_Mall\React_Redux_.NET_Shopping_Mall\obj\Debug\net7.0\React_Redux_.NET_Shopping_Mall.csproj.CoreCompileInputs.cache
+D:\Coding\VisualStudio\Help_Desk\React_Redux_.NET_Shopping_Mall\Server\React_Redux_.NET_Shopping_Mall\React_Redux_.NET_Shopping_Mall\obj\Debug\net7.0\React_Redux_.NET_Shopping_Mall.MvcApplicationPartsAssemblyInfo.cs
+D:\Coding\VisualStudio\Help_Desk\React_Redux_.NET_Shopping_Mall\Server\React_Redux_.NET_Shopping_Mall\React_Redux_.NET_Shopping_Mall\obj\Debug\net7.0\React_Redux_.NET_Shopping_Mall.MvcApplicationPartsAssemblyInfo.cache

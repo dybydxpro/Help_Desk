@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Coding\\VisualStudio\\Angular_.NET_SignalR_ChatApp\\Angular_.NET_SignalR_ChatApp\\Angular_.NET_SignalR_ChatApp.csproj": {}
+    "F:\\Github\\Help_Desk\\Angular_.NET_SignalR_ChatApp\\Server\\Angular_.NET_SignalR_ChatApp\\Angular_.NET_SignalR_ChatApp.csproj": {}
   },
   "projects": {
-    "D:\\Coding\\VisualStudio\\Angular_.NET_SignalR_ChatApp\\Angular_.NET_SignalR_ChatApp\\Angular_.NET_SignalR_ChatApp.csproj": {
+    "F:\\Github\\Help_Desk\\Angular_.NET_SignalR_ChatApp\\Server\\Angular_.NET_SignalR_ChatApp\\Angular_.NET_SignalR_ChatApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Coding\\VisualStudio\\Angular_.NET_SignalR_ChatApp\\Angular_.NET_SignalR_ChatApp\\Angular_.NET_SignalR_ChatApp.csproj",
+        "projectUniqueName": "F:\\Github\\Help_Desk\\Angular_.NET_SignalR_ChatApp\\Server\\Angular_.NET_SignalR_ChatApp\\Angular_.NET_SignalR_ChatApp.csproj",
         "projectName": "Angular_.NET_SignalR_ChatApp",
-        "projectPath": "D:\\Coding\\VisualStudio\\Angular_.NET_SignalR_ChatApp\\Angular_.NET_SignalR_ChatApp\\Angular_.NET_SignalR_ChatApp.csproj",
-        "packagesPath": "C:\\Users\\thari\\.nuget\\packages\\",
-        "outputPath": "D:\\Coding\\VisualStudio\\Angular_.NET_SignalR_ChatApp\\Angular_.NET_SignalR_ChatApp\\obj\\",
+        "projectPath": "F:\\Github\\Help_Desk\\Angular_.NET_SignalR_ChatApp\\Server\\Angular_.NET_SignalR_ChatApp\\Angular_.NET_SignalR_ChatApp.csproj",
+        "packagesPath": "C:\\Users\\tharindu\\.nuget\\packages\\",
+        "outputPath": "F:\\Github\\Help_Desk\\Angular_.NET_SignalR_ChatApp\\Server\\Angular_.NET_SignalR_ChatApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\thari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tharindu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -44,6 +44,24 @@
               "target": "Package",
               "version": "[7.0.1, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.17.0, )"
@@ -51,6 +69,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
             }
           },
           "imports": [

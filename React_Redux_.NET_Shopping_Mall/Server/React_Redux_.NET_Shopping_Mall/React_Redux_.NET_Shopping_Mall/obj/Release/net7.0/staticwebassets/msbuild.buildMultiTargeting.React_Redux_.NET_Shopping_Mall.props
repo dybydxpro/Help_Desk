@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\React_Redux_.NET_Shopping_Mall.props" />
+</Project>

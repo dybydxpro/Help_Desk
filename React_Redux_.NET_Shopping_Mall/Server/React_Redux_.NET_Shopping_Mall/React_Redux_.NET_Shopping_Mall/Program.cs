@@ -1,3 +1,7 @@
+using React_Redux_.NET_Shopping_Mall.Repositories.Classes;
+using React_Redux_.NET_Shopping_Mall.Repositories.Interfaces;
+using System.Text;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -13,6 +17,9 @@ builder.Services.AddCors(options =>
 });
 
 builder.Services.AddControllers();
+
+builder.Services.AddScoped<IStockRepository, StockRepository>();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -29,8 +36,6 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseCors("MyPolicy");
-
-app.UseAuthorization();
 
 app.MapControllers();
 

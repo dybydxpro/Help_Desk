@@ -2,50 +2,25 @@ create database shoppingmall;
 
 use shoppingmall;
 
-create table users(
-Id int primary key auto_increment,
-FirstName varchar(255) default null,
-LastName varchar(255) default null,
-Address varchar(255) default null,
-Email varchar(255) default null,
-Contact varchar(255) default null,
-PasswordHash blob default null,
-PasswordSalt blob default null,
+create table stock(
+Id integer primary key auto_increment,
+ItemName varchar(255) default null,
+Description varchar(255) default null,
+Unit varchar(255) default null,
+AvailableQty integer default null,
+UnitPrice double default null,
 CreatedAt datetime default null,
 UpdatedAt datetime default null
 );
 
-drop table users;
+drop table stock;
 
         -- Stored Procedures
 
--- User Procedures
-DELIMITER $$
-CREATE DEFINER=`root`@`localhost` PROCEDURE `sp_checkUserAvailability`(email varchar(255))
-BEGIN
-	select `Id`, `FirstName`, `LastName`, `Address`, `Contact` from `users` where `email` = email;
-END$$
-DELIMITER ;
+-- Stock Procedures
 
-call checkUserAvailability('tharindutd1998@gmail.com');
-
-DELIMITER $$
-CREATE DEFINER=`root`@`localhost` PROCEDURE `sp_userRegister`(
-FirstName varchar(255),
-LastName varchar(255),
-Address varchar(255),
-Email varchar(255),
-Contact varchar(255),
-PasswordHash blob,
-PasswordSalt blob,
-CreatedAt datetime,
-UpdatedAt datetime
-)
-BEGIN
-	insert into `users` (`FirstName`, `LastName`, `Address`, `Email`, `Contact`, `PasswordHash`, `PasswordSalt`, `CreatedAt`, `UpdatedAt`)
-	values (FirstName, LastName, Address, Email, Contact, PasswordHash, PasswordSalt, CreatedAt, UpdatedAt);
-END$$
-DELIMITER ;
-
-CALL sp_userRegister('Tharindu', 'Theekshana', 'Hambantota', 'tharindutd1998@gmail.com', '+94779200039', '', '', '2022-12-22 13:56:00', '2022-12-22 13:56:00');
-
+call sp_getAllStock;
+call sp_getStockById(1);
+call sp_postStock('Soap', '100g', 'NOS', 10, 225.50, '', '');
+call sp_putStock(1, 'Soap', '100g', 'NOS', 10, 225.50, '', '');
+call sp_deleteStock(1);

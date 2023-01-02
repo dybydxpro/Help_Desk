@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Coding\\VisualStudio\\Help_Desk\\React_Redux_.NET_Shopping_Mall\\Server\\React_Redux_.NET_Shopping_Mall\\React_Redux_.NET_Shopping_Mall\\React_Redux_.NET_Shopping_Mall.csproj": {}
+    "F:\\Github\\Help_Desk\\React_Redux_.NET_Shopping_Mall\\Server\\React_Redux_.NET_Shopping_Mall\\React_Redux_.NET_Shopping_Mall\\React_Redux_.NET_Shopping_Mall.csproj": {}
   },
   "projects": {
-    "D:\\Coding\\VisualStudio\\Help_Desk\\React_Redux_.NET_Shopping_Mall\\Server\\React_Redux_.NET_Shopping_Mall\\React_Redux_.NET_Shopping_Mall\\React_Redux_.NET_Shopping_Mall.csproj": {
+    "F:\\Github\\Help_Desk\\React_Redux_.NET_Shopping_Mall\\Server\\React_Redux_.NET_Shopping_Mall\\React_Redux_.NET_Shopping_Mall\\React_Redux_.NET_Shopping_Mall.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Coding\\VisualStudio\\Help_Desk\\React_Redux_.NET_Shopping_Mall\\Server\\React_Redux_.NET_Shopping_Mall\\React_Redux_.NET_Shopping_Mall\\React_Redux_.NET_Shopping_Mall.csproj",
+        "projectUniqueName": "F:\\Github\\Help_Desk\\React_Redux_.NET_Shopping_Mall\\Server\\React_Redux_.NET_Shopping_Mall\\React_Redux_.NET_Shopping_Mall\\React_Redux_.NET_Shopping_Mall.csproj",
         "projectName": "React_Redux_.NET_Shopping_Mall",
-        "projectPath": "D:\\Coding\\VisualStudio\\Help_Desk\\React_Redux_.NET_Shopping_Mall\\Server\\React_Redux_.NET_Shopping_Mall\\React_Redux_.NET_Shopping_Mall\\React_Redux_.NET_Shopping_Mall.csproj",
-        "packagesPath": "C:\\Users\\thari\\.nuget\\packages\\",
-        "outputPath": "D:\\Coding\\VisualStudio\\Help_Desk\\React_Redux_.NET_Shopping_Mall\\Server\\React_Redux_.NET_Shopping_Mall\\React_Redux_.NET_Shopping_Mall\\obj\\",
+        "projectPath": "F:\\Github\\Help_Desk\\React_Redux_.NET_Shopping_Mall\\Server\\React_Redux_.NET_Shopping_Mall\\React_Redux_.NET_Shopping_Mall\\React_Redux_.NET_Shopping_Mall.csproj",
+        "packagesPath": "C:\\Users\\tharindu\\.nuget\\packages\\",
+        "outputPath": "F:\\Github\\Help_Desk\\React_Redux_.NET_Shopping_Mall\\Server\\React_Redux_.NET_Shopping_Mall\\React_Redux_.NET_Shopping_Mall\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\thari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tharindu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,17 +40,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Identity": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.1, )"
-            },
-            "Microsoft.IdentityModel.Tokens": {
-              "target": "Package",
-              "version": "[6.25.1, )"
             },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
@@ -59,6 +51,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
             },
             "System.Security.Claims": {
               "target": "Package",

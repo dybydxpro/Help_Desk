@@ -136,7 +136,7 @@ namespace React_Redux_.NET_Shopping_Mall.Repositories.Classes
             {
                 return false;
             }
-}
+        }
 
         public bool PutStock(Stock obj)
         {

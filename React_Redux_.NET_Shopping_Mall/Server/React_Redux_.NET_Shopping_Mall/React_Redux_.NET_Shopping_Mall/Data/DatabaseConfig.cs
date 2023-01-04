@@ -4,7 +4,7 @@ namespace React_Redux_.NET_Shopping_Mall.Data
     {
         public string Connection()
         {
-            return "LAPTOP-THARINDU\\SQLEXPRESS;Database=shoppingmall;Trusted_Connection=True;MultipleActiveResultSets=true";
+            return "Server=LAPTOP-THARINDU\\SQLEXPRESS;Database=shoppingmall;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True";
         }
 
         // Server=THARINDUD\\SQLEXPRESS;Database=LMS;TrustServerCertificate=True;Trusted_Connection=True;MultipleActiveResultSets=true;

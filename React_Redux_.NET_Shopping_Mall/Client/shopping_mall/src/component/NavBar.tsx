@@ -18,18 +18,24 @@ export default function NavBar(){
     function inputAllData(){
         var addNew = {
             "itemName": itemName,
-            
+            "description": description,
+            "unit": unit,
+            "availableQty": availableQty,
+            "unitPrice": unitPrice
         }
 
-        Services.getData(addNew)
+        Services.postData(addNew)
             .then(({data}) =>{
                 console.log(data);
-                fetchData();
-                AddModelHandleClose();
-                setAddNew({});
+                setItemName("");
+                setDescription("");
+                setUnit("");
+                setAvailableQty(0);
+                setUnitPrice(0);
+                setShow(false);
+                window.location.replace("/");
             }).catch(({response})=>{
                 console.log(response);
-                alert(response);
             })
     }
 
@@ -85,7 +91,7 @@ export default function NavBar(){
                     <Button variant="secondary" onClick={handleClose}>
                         Close
                     </Button>
-                    <Button variant="primary" onClick={handleClose}>
+                    <Button variant="primary" onClick={() => { handleClose(); inputAllData(); }}>
                         Save Changes
                     </Button>
                 </Modal.Footer>

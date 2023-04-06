@@ -43,9 +43,6 @@ namespace Angular_.NET_SignalR_ChatApp.Controllers
         //    try
         //    {
         //        List<Message> msgSet = new List<Message>();
-
-
-
         //        Message newMsg = new Message() { User = message.User, MsgScript = message.MsgScript };
         //        msg.Add(newMsg);
         //        _hub.Clients.All.BroadcastMessage(message);

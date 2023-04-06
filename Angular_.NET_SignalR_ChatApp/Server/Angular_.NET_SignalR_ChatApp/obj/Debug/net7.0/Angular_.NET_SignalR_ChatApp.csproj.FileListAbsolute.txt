@@ -33,3 +33,4 @@ D:\Coding\VisualStudio\Help_Desk\Angular_.NET_SignalR_ChatApp\Server\Angular_.NE
 D:\Coding\VisualStudio\Help_Desk\Angular_.NET_SignalR_ChatApp\Server\Angular_.NET_SignalR_ChatApp\obj\Debug\net7.0\Angular_.NET_SignalR_ChatApp.pdb
 D:\Coding\VisualStudio\Help_Desk\Angular_.NET_SignalR_ChatApp\Server\Angular_.NET_SignalR_ChatApp\obj\Debug\net7.0\Angular_.NET_SignalR_ChatApp.genruntimeconfig.cache
 D:\Coding\VisualStudio\Help_Desk\Angular_.NET_SignalR_ChatApp\Server\Angular_.NET_SignalR_ChatApp\obj\Debug\net7.0\ref\Angular_.NET_SignalR_ChatApp.dll
+D:\Coding\VisualStudio\Help_Desk\Angular_.NET_SignalR_ChatApp\Server\Angular_.NET_SignalR_ChatApp\bin\Debug\net7.0\dataset.json

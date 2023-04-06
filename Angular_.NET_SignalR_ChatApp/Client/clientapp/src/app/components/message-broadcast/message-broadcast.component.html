@@ -1,17 +1,30 @@
-<div class="container">
-    <div class="py-4">
-        <div class="alert alert-primary">
-            <div class="row">
-                <div class="col">Msg Script</div>
-                <div class="col"><input type="text" class="form-control" id="msgScript" placeholder="Message..."/></div>
-                <div class="col"><button type="button" class="btn btn-primary" id="btnSend">Send</button></div>
+<div class="texture">
+    <div class="container">
+        <div class="py-4">
+            <div class="alert alert-primary">
+                <div class="row">
+                    <div class="col-sm-3 py-2 align-middle">Msg Script</div>
+                    <div class="col-sm-6 py-2">
+                        <input type="text" class="form-control" id="msgScript" placeholder="Message..." [value]="txtBox" (keyup)="setValue($event)"/>
+                    </div>
+                    <div class="col-sm-3 py-2 d-flex justify-content-end">
+                        <button type="button" class="btn btn-primary" id="btnSend" (click)="postData()">Send</button>
+                    </div>
+                </div>
             </div>
-        </div>
-
-        <div class="alert alert-info">
-            <div class="p-4">
-                <div class="alert" *ngfor="">
-
+    
+            <div class="alert alert-info">
+                <div class="p-4">
+                    <div class="">
+                        <ul class="list-group" *ngFor="let msg of mainDataSet;">
+                            <li class="list-group-item list-group-item-primary">
+                                <span class="row">
+                                    <div class="col-sm-3 align-middle"><p>ID: {{msg.user}}</p></div>
+                                    <div class="col-sm-6 align-middle"><p>Msg: {{msg.msgScript}}</p></div>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>

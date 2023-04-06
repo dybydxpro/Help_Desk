@@ -7,6 +7,7 @@ import { IndexComponent } from './components/user/index/index.component';
 import { CreateComponent } from './components/user/create/create.component';
 import { ViewComponent } from './components/user/view/view.component';
 import { EditComponent } from './components/user/edit/edit.component';
+import { MessageBroadcastComponent } from './message-broadcast/message-broadcast.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { EditComponent } from './components/user/edit/edit.component';
     IndexComponent,
     CreateComponent,
     ViewComponent,
-    EditComponent
+    EditComponent,
+    MessageBroadcastComponent
   ],
   imports: [
     BrowserModule,

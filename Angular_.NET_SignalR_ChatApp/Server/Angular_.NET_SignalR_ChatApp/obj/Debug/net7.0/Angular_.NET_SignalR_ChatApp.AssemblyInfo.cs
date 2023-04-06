@@ -11,7 +11,7 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("3cd4c3d1-6be0-47cc-8e6d-8861107bdfc9")]
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("884554ec-c98b-4e82-9857-b716719511e9")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Angular_.NET_SignalR_ChatApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

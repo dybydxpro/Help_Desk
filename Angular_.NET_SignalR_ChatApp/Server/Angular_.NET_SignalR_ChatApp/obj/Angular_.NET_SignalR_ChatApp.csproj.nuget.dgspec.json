@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Github\\Help_Desk\\Angular_.NET_SignalR_ChatApp\\Server\\Angular_.NET_SignalR_ChatApp\\Angular_.NET_SignalR_ChatApp.csproj": {}
+    "D:\\Coding\\VisualStudio\\Help_Desk\\Angular_.NET_SignalR_ChatApp\\Server\\Angular_.NET_SignalR_ChatApp\\Angular_.NET_SignalR_ChatApp.csproj": {}
   },
   "projects": {
-    "F:\\Github\\Help_Desk\\Angular_.NET_SignalR_ChatApp\\Server\\Angular_.NET_SignalR_ChatApp\\Angular_.NET_SignalR_ChatApp.csproj": {
+    "D:\\Coding\\VisualStudio\\Help_Desk\\Angular_.NET_SignalR_ChatApp\\Server\\Angular_.NET_SignalR_ChatApp\\Angular_.NET_SignalR_ChatApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Github\\Help_Desk\\Angular_.NET_SignalR_ChatApp\\Server\\Angular_.NET_SignalR_ChatApp\\Angular_.NET_SignalR_ChatApp.csproj",
+        "projectUniqueName": "D:\\Coding\\VisualStudio\\Help_Desk\\Angular_.NET_SignalR_ChatApp\\Server\\Angular_.NET_SignalR_ChatApp\\Angular_.NET_SignalR_ChatApp.csproj",
         "projectName": "Angular_.NET_SignalR_ChatApp",
-        "projectPath": "F:\\Github\\Help_Desk\\Angular_.NET_SignalR_ChatApp\\Server\\Angular_.NET_SignalR_ChatApp\\Angular_.NET_SignalR_ChatApp.csproj",
-        "packagesPath": "C:\\Users\\tharindu\\.nuget\\packages\\",
-        "outputPath": "F:\\Github\\Help_Desk\\Angular_.NET_SignalR_ChatApp\\Server\\Angular_.NET_SignalR_ChatApp\\obj\\",
+        "projectPath": "D:\\Coding\\VisualStudio\\Help_Desk\\Angular_.NET_SignalR_ChatApp\\Server\\Angular_.NET_SignalR_ChatApp\\Angular_.NET_SignalR_ChatApp.csproj",
+        "packagesPath": "C:\\Users\\thari\\.nuget\\packages\\",
+        "outputPath": "D:\\Coding\\VisualStudio\\Help_Desk\\Angular_.NET_SignalR_ChatApp\\Server\\Angular_.NET_SignalR_ChatApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tharindu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\thari\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -42,37 +42,23 @@
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[7.0.1, )"
+              "version": "[7.0.4, )"
             },
-            "Microsoft.EntityFrameworkCore": {
+            "Microsoft.AspNetCore.SignalR": {
               "target": "Package",
-              "version": "[7.0.1, )"
+              "version": "[1.1.0, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
+            "Microsoft.AspNetCore.SignalR.Core": {
               "target": "Package",
-              "version": "[7.0.1, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer.Design": {
-              "target": "Package",
-              "version": "[1.1.6, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[7.0.1, )"
+              "version": "[1.1.0, )"
             },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
-              "version": "[1.17.0, )"
+              "version": "[1.18.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
-            },
-            "System.Data.SqlClient": {
-              "target": "Package",
-              "version": "[4.8.5, )"
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
@@ -94,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Angular_.NET_SignalR_ChatApp.props" />
+</Project>

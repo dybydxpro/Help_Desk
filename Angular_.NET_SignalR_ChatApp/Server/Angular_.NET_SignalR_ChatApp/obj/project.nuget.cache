@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "RkZ0U2dnmXi4lv87Gf/aEOBkE8iwfHGobFLCcu+mzl9MYJSHmvS0OjbsXT9raP3Tc2DgI1RAS05xassQrKDCPA==",
+  "dgSpecHash": "jLkug19erwfElUQmrLQxpXu+WKpRfI3ud8kHZ3JP6fn7koYvcXUnWaTWHXrYf/2Y93z9iTTkGdk04Jjm+C/fnQ==",
   "success": true,
   "projectFilePath": "D:\\Coding\\VisualStudio\\Help_Desk\\Angular_.NET_SignalR_ChatApp\\Server\\Angular_.NET_SignalR_ChatApp\\Angular_.NET_SignalR_ChatApp.csproj",
   "expectedPackageFiles": [
@@ -39,7 +39,7 @@
     "C:\\Users\\thari\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\thari\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
     "C:\\Users\\thari\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.18.1\\microsoft.visualstudio.azure.containers.tools.targets.1.18.1.nupkg.sha512",
-    "C:\\Users\\thari\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\thari\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\thari\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\thari\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\thari\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",

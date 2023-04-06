@@ -3,7 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { MessageBroadcastComponent } from './components/message-broadcast/message-broadcast.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/', pathMatch: 'full'},
+  { path: '', redirectTo: 'msg', pathMatch: 'full'},
   { path: 'msg', component: MessageBroadcastComponent },
 
 ];
